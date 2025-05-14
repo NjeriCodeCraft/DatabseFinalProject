@@ -42,7 +42,7 @@ Set up all tables with proper constraints
 Insert sample data
 
 ## ERD DIAGRAM
-
+![Library management ERD](https://github.com/user-attachments/assets/0845b483-06a9-4dc2-9a2c-be25552b8c11)
 
 
 ## 2. Task Manager API
@@ -71,7 +71,7 @@ pip package manager
 ## Setup Instructions
 Navigate to the Task Manager directory:
 # Navigate to project directory
-cd "Task Manager"
+cd taskmanager
 
 # Install dependencies
 pip install -r requirements.txt
@@ -98,7 +98,8 @@ connection = mysql.connector.connect(
 )
 
 ## ERD Diagram
-()
+
+![Task manager ERD](https://github.com/user-attachments/assets/947bee6e-6bff-45d4-921a-0e0fa7b9d147)
 
 ## Common Commands
 # Start MySQL service (Linux)
